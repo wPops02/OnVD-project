@@ -8,13 +8,17 @@ body{
     background-color: #FEF9E4;
     font-family: Tahoma, sans-serif;
     width: 1080px;
-    height: 1920px;
+    height: 1000px;
     margin: auto;
+    text-align: justify;
 }
 #border{
     background-color: #f5e49a;
     padding: 50px;
     border-radius: 20px;
+}
+#border li{
+    padding-bottom: 8px;
 }
 nav img{
     float: left;
@@ -60,5 +64,28 @@ img[alt~="me"]{
 }
 #textinmain{
     height: 300px;
-
+}
+.explanation{
+    font-size: 13px;
+    margin-top: 0;
+}
+#pics img{
+    width: 200px;
+    float: right;
+    clear: right;
+}
+#pics p{
+    float: right;
+    clear: right;
+    margin-right: 15px;
+}
+#picshobbies{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#picshobbies img{
+    padding-top: 40px;
+   height: 220px;
 }
