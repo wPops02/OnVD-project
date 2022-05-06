@@ -1,0 +1,64 @@
+a#onpage:not(:hover){
+    color: deepskyblue;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-underline-style: wavy-heavy;
+}
+body{
+    background-color: #FEF9E4;
+    font-family: Tahoma, sans-serif;
+    width: 1080px;
+    height: 1920px;
+    margin: auto;
+}
+#border{
+    background-color: #f5e49a;
+    padding: 50px;
+    border-radius: 20px;
+}
+nav img{
+    float: left;
+    margin-left: 50px;
+}
+nav li{
+    padding-top: 20px;
+    display: inline;
+    padding-left: 20px;
+    float: right;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    margin-bottom: 50px;
+    width: auto;
+}
+nav a:hover{
+    background-color: indigo;
+    padding: 20px;
+    color: white;
+}
+img[alt~="me"]{
+    width: 400px;
+    padding-left: 70px;
+    filter: sepia(20%);
+    float: right;
+    margin-right: 100px;
+}
+#main_about_me{
+    text-align: justify;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    height: 600px;
+    margin-left: 100px;
+}
+#textinmain h1{
+    font-size: 47px;
+}
+#textinmain{
+    height: 300px;
+
+}
