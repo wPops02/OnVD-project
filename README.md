@@ -1,3 +1,3 @@
 My homework for Intro to Web Design
 
-https://OnVD-project/homework/main.html
+https://wPops02.github.io/homework/main.html
